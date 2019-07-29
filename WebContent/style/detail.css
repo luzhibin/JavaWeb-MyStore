@@ -1,0 +1,127 @@
+body{
+    background: white;
+}
+#bread_crumb{
+    background: #f6f6f6;
+    height: 40px;
+    line-height: 40px;
+}
+#bread_crumb .bread_center{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+#bread_crumb span{
+    margin-top: -5px;
+}
+#bread_crumb a{
+    color: #666;
+    font-size: 14px;
+}
+#bread_crumb small{
+    font-size: 16px;
+    margin: 0 3px;
+}
+
+#detail_show{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    margin-top: 10px;
+}
+#detail_show .show_left{
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+#detail_show .show_left img{
+    width: 100%;
+    height: 100%;
+}
+#detail_show .show_right{
+    flex: 2;
+    padding: 10px;
+    padding-left: 30px;
+
+}
+#detail_show  .good_name{
+    font-size: 18px;
+    color: #666;
+}
+#detail_show .goods_price{
+    background: #f3f3f3;
+    height: 80px;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px;
+}
+#detail_show .ori_price{
+    margin-top: 5px;
+    position: relative;
+    margin-left: 10px;
+}
+#detail_show .ori_price em{
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background: #666;
+    top: 10px;
+    left: 50px;
+}
+#detail_show .now_price{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#detail_show .now_price i{
+    color:#ff4400;
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+#detail_show .now_price span{
+    font-size: 16px;
+    color: #ff4400;
+    font-weight: bold;
+}
+#detail_show .goods_count {
+    font-size: 14px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+#detail_show .goods_count label{
+    margin-right: 10px;
+}
+#detail_show .goods_count input{
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+#detail_show .add_cart{
+    margin-top: 50px;
+}
+#detail_show .add_cart input{
+    background: #ff4400;
+    width: 150px;
+    height: 44px;
+    color: white;
+    font-weight:bold;
+}
+
+#goods_detail {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 20px;
+
+}
+#goods_detail .detail_header{
+    background: #f6f6f6;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
