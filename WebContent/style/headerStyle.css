@@ -1,0 +1,140 @@
+*{/*清空所有样式*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#f6f6f6;
+}
+#header{
+    height: 214px;
+    background: white;
+}
+#header .header_top{
+    height: 36px;
+    background: #f5f5f5;
+}
+
+#header .header_top_center{
+    width: 1200px;/*设置版心宽度*/
+    height: 36px;/*设置高度*/
+    margin: 0 auto;/*居中显示*/
+}
+#header .h_top_left{
+    color: #6C6C6C; /*设置左侧文字颜色*/
+    font-size: 13px;/*设置宋体大小*/
+    height: 36px;/*设置高度*/
+    line-height: 36px;/*设置行高，文字垂直居中显示*/
+    float: left;/*左右显示*/
+}
+#header .h_top_right{
+    height: 36px;
+    line-height: 36px;
+    float: right;/*左右显示*/
+}
+#header .h_top_right a{
+    text-decoration: none;/*把链接下划线去掉*/
+    color: #6C6C6C;
+    margin: 0 10px;/*上下为0 左右为10距离*/
+    font-size: 13px;
+}
+#header .h_top_right a:hover{
+    color: #ff4400;
+    font-size: 14px;
+}
+/*-----------------------------------------------*/
+#header .h_c_center{
+    width: 1200px;
+    margin: 0 auto;
+    height: 124px;
+}
+#header .h_c_logo{
+    width: 190px;
+    height: 124px;
+    float: left;
+}
+#header .h_c_search{
+    width: 815px;
+    height: 124px;
+    float: left;
+    overflow: hidden;
+}
+#header .h_c_code{
+    width: 195px;
+    height: 124px;
+    float: left;
+}
+/*内容样式-----------*/
+#header .h_c_logo img{
+    width: 170px;
+    height: 100px;
+    margin-top: 10px;
+}
+#header form {
+    margin-top: 40px;
+    width: 630px;
+    height: 40px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+#header form input{
+    float: left;
+}
+#header .s_input{
+    width: 555px;
+    height: 40px;
+    border: 2px solid #ff4400;
+    padding-left: 10px;
+}
+#header .s_button{
+    width: 75px;
+    height: 40px;
+    background: #ff4400;
+    border: 1px solid #ff4400;
+    color: white;
+}
+#header .hot{
+    margin-left: 80px;
+    margin-top: 5px;
+}
+#header .hot a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: #6C6C6C;
+    font-size: 12px;
+}
+#header .hot a:first-child{
+    color: #ff4400;
+}
+#header .h_c_code img{
+    margin-top: 20px;
+}
+/*导航*/
+#nav{
+    width: 1200px;
+    margin: 0 auto;
+    height: 44px;
+    background: red;
+    line-height: 44px;
+    border-radius: 3px;
+}
+#nav ul{
+    list-style: none;
+    display: flex;/*伸缩布局*/
+    height: 44px;
+}
+#nav ul li {
+    flex: 1;/*平分*/
+    text-align: center;/*文字居中*/
+
+}
+#nav ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight:bold;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    font-size: 24px;
+}
+
