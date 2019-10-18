@@ -73,9 +73,10 @@ public class RegistServlet extends HttpServlet {
 				e.printStackTrace();
 			}
 			//跳转到登录页面
+			response.getWriter().write("注册成功");
 			response.setHeader("refresh", "3,url=/5-79-JavaWeb-Mystore4/login.jsp");
 		} else {
-			//不正确，高速用户验证码错误，跳转回注册页
+			//不正确，用户验证码错误，跳转回注册页
 			response.getWriter().write("验证码错误");
 			response.setHeader("refresh", "3;url=/5-79-JavaWeb-Mystore4/regist.jsp");
 		}

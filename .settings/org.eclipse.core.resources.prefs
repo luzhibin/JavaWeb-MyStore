@@ -3,3 +3,6 @@ encoding//WebContent/detail.jsp=UTF-8
 encoding//WebContent/goods_list.jsp=UTF-8
 encoding//WebContent/login.jsp=UTF-8
 encoding//WebContent/regist.jsp=UTF-8
+encoding//src/Web=GBK
+encoding//src/Web/RegistServlet.java=GBK
+encoding/<project>=GBK

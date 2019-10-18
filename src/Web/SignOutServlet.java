@@ -22,5 +22,4 @@ public class SignOutServlet extends HttpServlet {
 			session.invalidate();
 			response.sendRedirect("/5-79-JavaWeb-Mystore4/index.jsp");
 	}
-
 }

@@ -157,7 +157,7 @@
                 <!--密码-->
                 <div class="password">
                     <span></span>
-                    <input type="text" name="password" placeholder="请输入密码...">
+                    <input type="password" name="password" placeholder="请输入密码...">
                 </div>
                 <div class="login_btn">
                     <input type="submit" class="login_btn" value="登录">

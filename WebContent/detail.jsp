@@ -37,7 +37,7 @@
         <img src="images/goods/bigpic.jpg" alt="">
     </div>
     <div class="show_right">
-        <h3 class="good_name">小米 红米5A 全网通版 2GB+16GB 浅蓝色 移动联通电信4G手机 双卡双待</h3>
+        <h3 class="good_name">ROG/玩家国度 枪神Plus i7/GTX1070 17.3英寸 144Hz 3ms 独显八代I7</h3>
         <div class="goods_price">
             <p class="ori_price">原价：<i>￥</i><span>18999.00</span><em></em></p>
             <p class="now_price">价格： <i>￥</i><span>16999.00</span></p>
