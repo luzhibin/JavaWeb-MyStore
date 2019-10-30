@@ -54,3 +54,20 @@
    * session原理
    * session域对象和生命周期
    * Session域持久化JSessionID
+ * JSP
+   * 什么是JSP、JSP工作原理
+   * JSP指令和JSP内置对象
+ * EL表达式与JSTL表达式
+   * EL表达式基本使用
+   * EL表达式简写与内置对象
+   * JSTL表达式foreach循环
+   * EL表达式结合JSTL表达式
+ * MVC设计模式与三层架构
+   * 商品模块的业务分析与业务逻辑
+   * 商品CRUD操作
+   * 商品分类展示
+   * 数据库乱码与集合反转
+   * 通用Servlet与抽取BaseServlet
+ * 分页算法与数据展示
+ * 监听器与过滤器Filter
+ * Jrebel热部署
