@@ -23,8 +23,8 @@
  * http请求参数与请求方式
  * http响应内容与响应的结构
  * Tomcat服务器
-  * 下载安装与目录结构
-  * Context配置文件属性
+   * 下载安装与目录结构
+   * Context配置文件属性
  * HTML+CSS+JavaScript
  * Servlet
    * 什么是Servlet
